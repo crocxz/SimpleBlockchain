@@ -1,5 +1,5 @@
-
-const SHA256 = require('crypto-js/sha256')
+'use strict'
+const SHA256 = require('crypto-js/sha256');
 
 class Block {
     constructor(timestamp, data) {
@@ -16,7 +16,7 @@ class Block {
     }
 
     mineBlock(difficulty) {
-	//todo: mining algorithm
+	//todo: mining algorithm...
     }
 }
 
